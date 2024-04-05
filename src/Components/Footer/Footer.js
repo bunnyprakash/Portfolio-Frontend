@@ -15,9 +15,9 @@ function Footer() {
           <div className="social-icons">
           {/* <p>Social Media</p> */}
             <SocialIcon className="social-icon" url="https://www.instagram.com" network="instagram" />
-            <SocialIcon className="social-icon" url="https://www.github.com/your_username/" network="github" />
-            <SocialIcon className="social-icon" url="https://twitter.com/your_username" network="twitter" />
-            <SocialIcon className="social-icon" url="https://linked.com/your_username" network="linkedin" />
+            <SocialIcon className="social-icon" url="https://github.com/bunnyprakash" network="github" />
+            {/* <SocialIcon className="social-icon" url="https://twitter.com/your_username" network="twitter" /> */}
+            <SocialIcon className="social-icon" url="https://www.linkedin.com/feed/" network="linkedin" />
           </div>
         </div>
 

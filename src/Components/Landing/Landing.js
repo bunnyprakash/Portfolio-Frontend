@@ -79,6 +79,7 @@ const Landing = () => {
                 <div className='skills__skill'>Basic SQL</div>
                 <div className='skills__skill'>Java</div>
                 <div className='skills__skill'>TypeScript</div>
+                <div className='skills__skill'>Basic Data Structures</div>
               </div>
             </div>
           </div>
@@ -107,7 +108,7 @@ const Landing = () => {
         <div class="card-body">
           <p class="card-text">Developed the order fulfillment process, ensuring precision and timeliness in shipment distribution. Enhanced scalability  
                 and data management through MongoDB integration. 
-                Ensured system reliability with rigorous API testing using Postman. Streamlined deployment for improved application  delivery.</p>
+                Ensured system reliability with rigorous API testing using Postman. Streamlined deployment for improved application  delivery.</p><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         </div>
       </div>
     </div>
@@ -118,7 +119,7 @@ const Landing = () => {
         <img src={onymos1} class="card-img-top img-fluid" alt="..." />
         <div class="card-body">
           <p class="card-text"> Managing photos, images and videos in today’s mobile apps is time-consuming and thankless. 
-                Media is the toolkit to make it easy.The simplest, fastest way to compress, store and retrieve photos and videos.</p>
+                Media is the toolkit to make it easy.The simplest, fastest way to compress, store and retrieve photos and videos.</p><br></br>
         </div>
       </div>
     </div>
