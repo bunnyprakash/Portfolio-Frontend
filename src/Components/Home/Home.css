@@ -1,0 +1,66 @@
+/* Home.css */
+
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed; /* Set position to fixed */
+    top: 0; /* Stick to the top of the viewport */
+    width: 100%; /* Occupy full width */
+    z-index: 1000;
+  }
+  
+  /* Navbar brand (logo and text) styling */
+  .navbar-brand img {
+    margin-right: 10px; /* Adjust as needed for spacing between logo and text */
+  }
+  
+  .navbar-brand, .navbar-nav {
+    display: flex;
+    align-items: center; /* Center vertically */
+  }
+  
+  /* Navbar links styling */
+  .navbar-nav {           
+    list-style: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 20px;
+    flex-direction: row; /* Stack links horizontally on small screens */
+    justify-content: end;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333; /* Link text color */
+    font-weight: bold; /* Optional: Set the font weight */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* White background for the navbar */
+  .bg-body-tertiary {
+    background-color: #fff;
+  }
+  img{
+    border-radius: 60%;
+  }
+  /* Responsive styling for small screens */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      display: flex;
+      flex-direction: row; /* Stack links horizontally on small screens */
+      justify-content: end; /* Align links to the right */
+      align-items: center; /* Center vertically */
+      margin-top: 10px; /* Adjust as needed for spacing from the logo and text */
+    }
+  
+    .navbar-nav .nav-item {
+      margin-right: 10px;
+      margin-bottom: 0; /* Reset margin-bottom */
+    }
+  }
+  
