@@ -143,13 +143,13 @@ const Landing = () => {
           <hr style={{ color: '#7843e9', width: '3%', margin: 'auto', borderRadius: 10, border: '3px solid #7843e9' }} />
           <span className='heading-sec__sub'>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</span>
           <div class="container1">
-                  <form action="/action_page.php">
+                  <form action="/">
                     <div class="row">
                       <div class="col-25">
                         <label for="fname">Name</label>
                       </div>
                       <div class="col-75">
-                        <input type="text" id="name" name="name" placeholder="Enter Youre  name.." />
+                        <input type="text" id="name" name="name" placeholder="Enter Youre  name.."  required/>
                       </div>
                     </div>
                     <div class="row">
@@ -157,7 +157,7 @@ const Landing = () => {
                         <label for="lname">Email</label>
                       </div>
                       <div class="col-75">
-                        <input type="text" id="email" name="email" placeholder="Enter Youre Email" />
+                        <input type="email" id="email" name="email" placeholder="Enter Youre Email" required />
                       </div>
                     </div>
 
@@ -166,7 +166,7 @@ const Landing = () => {
                         <label for="subject">Message</label>
                       </div>
                       <div class="col-75">
-                        <textarea id="message" name="message" placeholder="Write something.." style={{height:200}}></textarea>
+                        <textarea id="message" name="message" placeholder="Write something.." style={{height:200}} required></textarea>
                       </div>
                     </div>
                     <div class="row">

@@ -22,9 +22,7 @@
   padding: 1em; /* Add padding for spacing */
 }
 
-.description {
-  /* margin-bottom: 1em; */
-}
+
 
 .button-content {
   text-align: center;
@@ -127,8 +125,6 @@
 
 /* project section styling */
 
-/* project section styling */
-
 .row2 {
   margin-bottom: 20px; /* Add space between rows */
   display: flex; /* Use flexbox for layout */
@@ -204,6 +200,13 @@
 
 /* contact section stayling */
 input[type=text], select, textarea {
+  width: 100%; /* Change width to 100% */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=email] {
   width: 100%; /* Change width to 100% */
   padding: 12px;
   border: 1px solid #ccc;
