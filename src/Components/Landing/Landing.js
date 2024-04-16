@@ -24,7 +24,7 @@ const Landing = () => {
       <div style={{ backgroundImage: 'url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg)' }}>
         <div id='content' className="container d-flex justify-content-center align-items-center flex-column">
           {/* need to work on this to disply socila media icons in left */}
-          {/* <div className="socialmedia d-flex flex-column align-items-start">
+          {/* <div className="socialmedia d-flex flex-column">
       <SocialIcon className="social-icon" url="https://www.instagram.com/your_username/" network="instagram" />
       <SocialIcon className="social-icon" url="https://www.github.com/your_username/" network="github" />
       <SocialIcon className="social-icon" url="https://twitter.com/your_username" network="twitter" />

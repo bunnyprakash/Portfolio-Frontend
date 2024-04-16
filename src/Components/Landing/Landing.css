@@ -190,24 +190,18 @@
   }
 
   .card {
-    flex-basis: calc(100% - 20px); /* Set each card to occupy full width with space between cards */
+    flex-basis: calc(100% - 20px); /* Set each card to occupy 50% of the width with space between cards */
     max-width: calc(100% - 20px); /* Set maximum width for each card */
+    margin: 10px; /* Add margin to create space between cards */
   }
 }
 
 
 
 
-/* contact section stayling */
-input[type=text], select, textarea {
-  width: 100%; /* Change width to 100% */
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-input[type=email] {
-  width: 100%; /* Change width to 100% */
+/* contact section styling */
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -215,7 +209,7 @@ input[type=email] {
 }
 
 label {
-  padding: 12px 12px 12px 0;
+  padding: 12px 0;
   display: inline-block;
 }
 
@@ -226,8 +220,8 @@ label {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 30%;
-  float: center; /* Align submit button to the right */
+  width: 100%; /* Full width on mobile */
+  margin-top: 12px; /* Add some space at the top */
 }
 
 .btn-submit:hover {
@@ -238,19 +232,13 @@ label {
   border-radius: 5px;
   background-color: #ccc;
   padding: 20px;
-  margin: auto; /* Center the container */
-  width: 40%; /* Set max-width for the container */
+  margin: auto;
+  max-width: 600px; /* Set max-width for better responsiveness */
 }
 
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
+.col-25, .col-75 {
+  display: inline-block;
+  width: 100%; /* Full width for both columns on mobile */
   margin-top: 6px;
 }
 
@@ -261,13 +249,19 @@ label {
   clear: both;
 }
 
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 600px wide */
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .col-25, .col-75 {
+    display: block;
+  }
+
+  .col-25 {
+    margin-bottom: 12px;
+  }
+
+  input[type=submit] {
     width: 100%;
-    margin-top: 0;
-    float: none; /* Clear float for responsiveness */
   }
 }
+
 

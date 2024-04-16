@@ -14,10 +14,10 @@ function Footer() {
         
           <div className="social-icons">
           {/* <p>Social Media</p> */}
-            <SocialIcon className="social-icon" url="https://www.instagram.com" network="instagram" />
+            <SocialIcon className="social-icon" url="https://www.instagram.com/bunny_prakash_143" network="instagram" />
             <SocialIcon className="social-icon" url="https://github.com/bunnyprakash" network="github" />
             {/* <SocialIcon className="social-icon" url="https://twitter.com/your_username" network="twitter" /> */}
-            <SocialIcon className="social-icon" url="https://www.linkedin.com/feed/" network="linkedin" />
+            <SocialIcon className="social-icon" url="https://www.linkedin.com/in/prakash-m-profile/" network="linkedin" />
           </div>
         </div>
 
